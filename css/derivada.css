@@ -1,0 +1,81 @@
+#txtDigiteFuncao
+{
+  position: relative;
+  top: 20px;
+  left: 4px;
+}
+#txtFx
+{
+  position: relative;
+  top: 40px;
+  left: 4px;
+}
+
+#caixaDeEntrada
+{
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+#canvas
+{
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+
+#botaoPlot
+{
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+#txtDigiteX
+{
+  position: relative;
+  top: 60px;
+  left: 4px;
+}
+
+#caixaDeEntradaX
+{
+  position: relative;
+  top: 60px;
+  left: 4px;
+  width: 4em;
+}
+
+#txtDerivada
+{
+  position: relative;
+  top: 60px;
+  left: 10px;
+}
+
+body
+{
+  background-color: #94A8BF;
+}
+
+@media screen and (max-width: 1024px)
+{
+  #txtFx
+  {
+    font-size: 2em;
+  }
+  #botaoPlot
+  {
+    font-size: 2em;
+  }
+  #txtDigiteFuncao
+  {
+    font-size: 2em;
+  }
+
+  #caixaDeEntrada
+  {
+    font-size: 2em;
+  }
+}

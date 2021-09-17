@@ -1,0 +1,59 @@
+#txtDigiteFuncao
+{
+  position: relative;
+  top: 20px;
+  left: 4px;
+}
+#txtFx
+{
+  position: relative;
+  top: 40px;
+  left: 4px;
+}
+
+#caixaDeEntrada
+{
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+#canvas
+{
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+
+#botaoPlot
+{
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+body
+{
+  background-color: #8FBC8F;
+}
+
+@media screen and (max-width: 1024px)
+{
+  #txtFx
+  {
+    font-size: 2em;
+  }
+  #botaoPlot
+  {
+    font-size: 2em;
+  }
+  #txtDigiteFuncao
+  {
+    font-size: 2em;
+  }
+
+  #caixaDeEntrada
+  {
+    font-size: 2em;
+  }
+}
